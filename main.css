@@ -63,7 +63,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 			aside {
 				/*width: 230px;*/
 				float: right;
-				padding: 0px 40px 20px 0px;}
+				padding: 0px 45px 20px 0px;}
 			aside section a {
 				display: block;
 				padding: 10px;
