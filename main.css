@@ -49,7 +49,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 			figure {
 				/*width: 290px;
 				height: 220px;*/
-				padding: 10px;
+				padding: 10px 0px 10px 10px;
                                 /*margin-left: auto;
                                 margin-right: auto;
                                 border: 1px solid #eeeeee;*/}
@@ -57,15 +57,16 @@ header, section, footer, aside, nav, article, figure, figcaption {
 				font-size: 90%;
                                 margin-left: 70px;
 				text-align: left;
-                                line-height: 1.2em;}
-			aside {
+                                line-height: 1.4em;}
+			aside p {
+                                line-height: 1.5em;}
+                        aside {
 				/*width: 230px;*/
-				line-height: 1.2em;
                                 float: right;
 				padding: 20px 45px 20px 0px;}
 			aside section a {
 				display: block;
-				padding: 5px;
+				padding: 0px;
 				/*border-bottom: 1px solid #eeeeee;*/}
 			aside section a:hover {
 				color: #985d6a;
@@ -77,15 +78,18 @@ header, section, footer, aside, nav, article, figure, figcaption {
 				font-weight: normal;}
 			h2 {
 				margin-left: 65px;
+                                font-family: 'Arima Madurai', cursive;
+                                font-size: 26px;
                                 padding: 0px 0px 0px 0px;}
 			h3 {
                                 margin-left: 65px;
 				color: #de6581;
+                                font-family: 'Arima Madurai', cursive;
                                 padding: 0px 0px 0px 0px;}
 			aside h2 {
-				margin-left: 0px;
-                                color: #de6581;
-                                line-height: 0.4em;}
+				line-height: 0.4em;
+                                margin-left: 0px;
+                                color: #de6581;}
 			footer {
 				font-size: 80%;
 				padding: 7px 0px 0px 20px;}
