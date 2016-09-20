@@ -6,7 +6,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 				background-image: url("background.jpg");
 				background-position: center;
 				font-family: Courier, serif;
-				line-height: 1.4em;
+				line-height: 0.7em;
 				margin: 0px;}
 			.wrapper {
 				width: 940px;
@@ -48,21 +48,20 @@ header, section, footer, aside, nav, article, figure, figcaption {
 				margin-top: 40px;}
 			figure {
 				/*width: 290px;
-				height: 220px;
-				padding: 5px;*/
-                                display: block;
-                                margin-left: auto;
-                                margin-right: auto;
+				height: 220px;*/
+				padding: 10px;
                                 /*margin-left: auto;
                                 margin-right: auto;
                                 border: 1px solid #eeeeee;*/}
 			figcaption {
 				font-size: 90%;
-                                margin-left: 115px;
-				text-align: left;}
+                                margin-left: 70px;
+				text-align: left;
+                                line-height: 1.2em;}
 			aside {
 				/*width: 230px;*/
-				float: right;
+				line-height: 1.2em;
+                                float: right;
 				padding: 0px 45px 20px 0px;}
 			aside section a {
 				display: block;
@@ -77,12 +76,12 @@ header, section, footer, aside, nav, article, figure, figcaption {
 			h1, h2, h3 {
 				font-weight: normal;}
 			h2 {
-				margin-left: 115px;
-                                padding: 0px;}
+				margin-left: 65px;
+                                padding: 0px 0px 0px 0px;}
 			h3 {
-                                margin-left: 115px;
+                                margin-left: 65px;
 				color: #de6581;
-                                padding: 0px;}
+                                padding: 0px 0px 0px 0px;}
 			aside h2 {
 				margin-left: 0px;
                                 color: #de6581;}
