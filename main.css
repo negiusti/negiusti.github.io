@@ -62,10 +62,10 @@ header, section, footer, aside, nav, article, figure, figcaption {
 				/*width: 230px;*/
 				line-height: 1.2em;
                                 float: right;
-				padding: 0px 45px 20px 0px;}
+				padding: 20px 45px 20px 0px;}
 			aside section a {
 				display: block;
-				padding: 10px;
+				padding: 5px;
 				/*border-bottom: 1px solid #eeeeee;*/}
 			aside section a:hover {
 				color: #985d6a;
@@ -84,7 +84,8 @@ header, section, footer, aside, nav, article, figure, figcaption {
                                 padding: 0px 0px 0px 0px;}
 			aside h2 {
 				margin-left: 0px;
-                                color: #de6581;}
+                                color: #de6581;
+                                line-height: 0.4em;}
 			footer {
 				font-size: 80%;
 				padding: 7px 0px 0px 20px;}
